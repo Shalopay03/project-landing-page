@@ -96,3 +96,42 @@ ul{
     color: #F9FAF8;
 }
 
+.middle-section{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.middle-section h1{
+    margin: 0px;
+    text-align: center;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: center;
+}
+
+.ill-container{    
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    margin: 20px;
+}
+
+.illustration{
+    flex-basis: 100px;
+    flex-shrink: 0;
+    border: solid;
+    border-radius: 15px;
+    border-color: #3882F6;
+}
+
+.ill-container p{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #444763;
+}
+
+
