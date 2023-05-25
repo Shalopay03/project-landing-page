@@ -16,7 +16,6 @@ body header,
 body .upper-section,
 body .middle-section,
 body .lower-section,
-body .ad,
 body footer{
     
     padding-left: 20%;
@@ -159,4 +158,52 @@ ul{
     font-size: 18px;
     font-weight: 600;
     text-align: right;
+}
+
+.ad{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.ad .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.ad .text h1,
+.ad .text p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.ad .text.h1{
+    font-weight: bold;
+}
+
+.ad .text p{
+    font-weight: 100;
+}
+
+.ad button{
+        background-color: #3882F6;
+        border: solid;
+        border-color: #F9FAF8;
+        color: #F9FAF8;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100px;
+        font-size: 15px;
+        font-weight: bold;
 }
