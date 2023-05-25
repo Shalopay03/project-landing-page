@@ -12,10 +12,23 @@ body{
     margin: 0px;
 }
 
+body header, 
+body .upper-section,
+body .middle-section,
+body .lower-section,
+body .ad,
+body footer{
+    
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .header h1{
@@ -33,3 +46,53 @@ ul{
     align-items: center;
     gap: 30px;
 }
+
+.upper-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 50px;
+}
+
+.awesome-website{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 10px;
+}
+
+.awesome-website h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.awesome-website p{ 
+    color: #F9FAF8;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.awesome-website button{ 
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+.website-image{
+    flex: 1;
+    background-color: #444763;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
