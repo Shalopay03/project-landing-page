@@ -223,7 +223,7 @@ footer{
 
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (max-width: 1000px), only screen and (max-width: 600px) {
     body header, 
     body .upper-section,
     body .middle-section,
