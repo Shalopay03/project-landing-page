@@ -44,7 +44,6 @@ ul{
     display: flex;
     align-items: center;
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 .upper-section{
