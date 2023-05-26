@@ -98,6 +98,7 @@ ul{
     align-items: center;
     color: #F9FAF8;
     flex-shrink: 0;
+    border-radius: 10px;
 }
 
 .middle-section{
